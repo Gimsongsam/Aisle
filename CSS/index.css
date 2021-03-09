@@ -282,7 +282,7 @@ main .wrap h1{
 }
 
 /* #gallery */
-#gallery{padding: 40px 0 20px;}
+#gallery{padding: 40px 0;}
 #gallery .wrap{
     width: 1200px;
     margin: 0 auto;
@@ -306,7 +306,7 @@ main .wrap h1{
 
 #gallery .wrap .content{
     font-size: 0;
-    text-align: center;
+    /*text-align: center;*/
 }
 #gallery .wrap .content article{
     width: calc((100% / 3) - 20px); height: 240px;
@@ -317,7 +317,7 @@ main .wrap h1{
 }
 
 #gallery .wrap .content article:nth-child(1){
-    margin-left: calc(100% / 6);
+    margin-left: calc(100% / 6 + 10px);
 }
 
 #gallery .wrap .content article .cont{
